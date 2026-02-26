@@ -1,0 +1,48 @@
+{
+    "app_name": "Plantilla SaaS",
+    "app_id": "com.plantilla.app",
+    "web_url": "https://ianegs.com",
+    "version": "1.0.0",
+    "features": {
+        "geolocation": {
+            "enabled": true,
+            "background_tracking": false,
+            "update_interval": 5000
+        },
+        "push_notifications": {
+            "enabled": true,
+            "firebase_project_id": ""
+        },
+        "camera": {
+            "enabled": false
+        },
+        "offline_mode": {
+            "enabled": true
+        }
+    },
+    "ui": {
+        "hide_sections": [
+            "sectores-banner"
+        ],
+        "show_sections": [],
+        "mobile_menu": true,
+        "hide_admin_panel": true,
+        "custom_css": ""
+    },
+    "colors": {
+        "primary": "#007bff",
+        "secondary": "#6c757d",
+        "status_bar_style": "light",
+        "status_bar_background": "#007bff"
+    },
+    "navigation": {
+        "hide_header": false,
+        "hide_footer": false,
+        "custom_header": false
+    },
+    "permissions": {
+        "location": "always",
+        "camera": "never",
+        "notifications": "granted"
+    }
+}

@@ -1,0 +1,35 @@
+{
+  "appId": "com.plantilla.app",
+  "appName": "Plantilla SaaS",
+  "webDir": "www",
+  "server": {
+    "url": "https://ianegs.com",
+    "cleartext": false,
+    "allowNavigation": [
+      "https://ianegs.com",
+      "https://*.ianegs.com"
+    ]
+  },
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 2000,
+      "backgroundColor": "#007bff"
+    },
+    "StatusBar": {
+      "style": "light",
+      "backgroundColor": "#007bff"
+    },
+    "Geolocation": {
+      "enableHighAccuracy": true
+    }
+  },
+  "android": {
+    "allowMixedContent": false,
+    "captureInput": true,
+    "webContentsDebuggingEnabled": false
+  },
+  "ios": {
+    "contentInset": "automatic",
+    "scrollEnabled": true
+  }
+}

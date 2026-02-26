@@ -1,0 +1,26 @@
+{
+  "name": "plantilla-mobile",
+  "version": "1.0.0",
+  "description": "Apps móviles con Capacitor para plantilla SaaS",
+  "scripts": {
+    "init": "npm install && npx cap sync",
+    "sync": "npx cap sync",
+    "android": "npx cap sync android && npx cap open android",
+    "ios": "npx cap sync ios && npx cap open ios",
+    "build:android": "npx cap sync android",
+    "build:ios": "npx cap sync ios"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.1.0",
+    "@capacitor/app": "^8.0.1",
+    "@capacitor/core": "^8.1.0",
+    "@capacitor/geolocation": "^8.1.0",
+    "@capacitor/ios": "^8.1.0",
+    "@capacitor/push-notifications": "^8.0.1",
+    "@capacitor/splash-screen": "^8.0.1",
+    "@capacitor/status-bar": "^8.0.1"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.1.0"
+  }
+}
